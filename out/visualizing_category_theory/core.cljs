@@ -10,8 +10,8 @@
   ; setup function returns initial state. It contains
   ; circle color and position.
   {:category {
-    :objects []
-    :arrows []
+    :objects #{:d :a :b :c}
+    :arrows #{:d :a :b :c}
   }
    :color 0
    :angle 0})
