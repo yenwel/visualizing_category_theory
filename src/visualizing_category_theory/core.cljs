@@ -9,7 +9,11 @@
   (q/color-mode :hsb)
   ; setup function returns initial state. It contains
   ; circle color and position.
-  {:color 0
+  {:category {
+    :objects #{:d :a :b :c}
+    :arrows #{:d :a :b :c}
+  }
+   :color 0
    :angle 0})
 
 (defn update-state [state]
